@@ -1,0 +1,126 @@
+body{
+    background-color: black;
+    font-family:'Raleway', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+body *{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    width: 100%;
+}
+
+nav{
+    text-align: center;
+}
+
+nav h1{
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+header{
+    background-image: url('../imgs/bg-header.jpg');
+    height: 727px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.iguana-desc{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-top: 45px;
+    height: 348px;
+    justify-content: center;
+}
+
+.iguana-img, .iguana-text{
+    width: 50%;
+}
+
+.iguana-text{
+    margin-right: 16px;
+}
+.iguana-text p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+.iguana-img{
+    float: right;
+    width: 399px;
+}
+
+.iguana-img img{
+    width: 100%;
+}
+
+.iguana-caract{
+    height: 21.3125em;
+    background:#1E1A13;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.iguana-title2{
+    display: block;
+    width: 100%;
+}
+
+.iguana-title2 h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.iguana-box{
+    display: block;
+}
+
+.iguana-card{
+    display: inline-block;
+    width: 30%;
+}
+
+
+.iguana-card p{
+    margin-top: 16px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.iguana-gallery{
+    text-align: center;
+    padding-top: 73px;
+    padding-bottom: 73px;
+}
+
+.iguana-galimg{
+    height: 202px;
+    width: 316px;
+    display: inline-block;
+    margin: 8px;
+}
+
+.iguana-galimg img{
+    height: 100%;
+}
+
+footer{
+    background-color: #1E1A13;
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+
+footer p{
+    font-size: 20px;
+    font-weight: 300;
+}
